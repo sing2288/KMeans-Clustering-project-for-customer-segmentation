@@ -16,7 +16,7 @@ if not os.path.exists(model_path):
 model = joblib.load(model_path)
 
 # Load the dataset
-data_path = os.path.join(os.path.dirname(__file__), 'Data', 'mall_customers (1).csv')
+data_path = os.path.join(os.path.dirname(__file__), 'data', 'mall_customers (1).csv')
 if not os.path.exists(data_path):
     st.error("Dataset file not found. Please ensure 'mall_customers (1).csv' exists in the 'Data' folder.")
     st.stop()
