@@ -47,4 +47,5 @@ Streamlit run app.py
 6. logging 
 
 # License 
+
 The Project is made for eductaional purposes only.
