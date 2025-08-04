@@ -10,7 +10,6 @@ Using K-Means clustering and Streamlit, this machine learning application divide
 # Project Structure 
 ├── data/
 │   └── Mall_Customers.csv            # Raw customer dataset
-│
 ├── modules/
 │   ├── __init__.py                   # Makes 'modules' a Python package
 │   ├── data_loader.py                # Load and return the dataset
@@ -19,7 +18,6 @@ Using K-Means clustering and Streamlit, this machine learning application divide
 │   ├── model.pkl                     # Trained model file
 │   ├── predictor.py                  # Prediction logic using trained model
 │   ├── train_model.py                # Training logic for K-Means clustering
-│
 ├── app.py                            # Main script or Streamlit app entry point
 ├── requirements.txt                  # List of dependencies
 ├── README.md                         # Project overview and usage instructions
@@ -48,3 +46,4 @@ logging
 # License 
 
 The Project is made for eductaional purposes only.
+
