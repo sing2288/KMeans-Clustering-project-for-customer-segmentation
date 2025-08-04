@@ -8,11 +8,6 @@ Using K-Means clustering and Streamlit, this machine learning application divide
 4. Graphical representations to learn more about different client groupings.
 
 # Project Structure 
-Unsupervised_Clustering_Solution/
-│
-├── .devcontainer/
-│   └── devcontainer.json              # Development container configuration
-│
 ├── data/
 │   └── Mall_Customers.csv            # Raw customer dataset
 │
@@ -51,4 +46,5 @@ scikit-learn
 logging 
 
 # License 
+
 The Project is made for eductaional purposes only.
